@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(imagenes/sanisidro.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 400px;
+} 
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    background-color:#006D77;
+    color:#FFF6F6;
+    padding: 15px;
+    width: 270px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.title-p{
+    background-color: #EDF6F9;
+    padding: 15px;
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+#activities{
+    margin: 35px auto;
+    width: 90%;
+    height: 600px;
+    background-color: #83C5BE;
+    border-radius: 58px;
+    color: #FFF4F4;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    
+}
+
+.activities-title{
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+.description{
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 450px;
+}
+
+.oldcentre, .river, .cathedral {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.guide-description{
+    font-style: italic;
+}
+
+.guide-name, .guide-title {
+    color:#006D77;
+}
+
+.guide-name{
+    margin-top: 15px;
+}
+
+.guide-title{
+    margin-bottom: 15px;
+}
+
+img{
+    display: block;
+    width: 185px;
+    height: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+footer{
+    background: linear-gradient(white,#006D77);
+    height: 310px;
+}
+
+.guide-card{
+    margin: 80px auto;
+    background:#EDF6F9;
+    width: 525px;
+    height: 250px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    border-radius: 20px;
+}
+
+.guide-paragraph{
+    padding: 47px;
+}
+
+h3, h4 {
+    text-align: center;
+}
+
+.guide-photo{
+    display: block;
+    width: 250px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 35px;
+   
+}
